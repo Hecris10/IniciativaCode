@@ -2,7 +2,7 @@
     <hr>
     <h2>O que são vetores?</h2>
         <p>Vetores são estruturas de dados onde podemos guardar um(recomenda-se a partir de dois) ou mais dados numa mesma declaração</p>
-        <p>Para entender melhor vamos se atentat as propriedades do vetor</p>
+        <p>Para entender melhor vamos nos atentar as propriedades do vetor</p>
         <h3>Propriedades de um Vetor</h3>
         <p>Um mesmo vetor tem tamanho máximo de posições que variam de acordo com a possibilidade de memória RAM disónível na máquina</p>
         <p>O número de posições de um vetor é chamado de tamanho ou cumprimento</p>
