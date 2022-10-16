@@ -8,8 +8,7 @@
         <p>O número de posições de um vetor é chamado de tamanho ou cumprimento</p>
         <p>Um vetor possui um tipo, logo só aceita armazenar dados do mesmo tipo</p>
         <p>Cientificamente falando, um vetor não armazena nada, mas ela é um ponteiro para locais de memória, ou seja, ela contém informações aonde cada item de sua posição está armazenada na memória RAM, logo quando uma de suas posiões é chamada ou atribuida ele retorna a localização dela</p>
-    
-    <h2>Como Criar um Vetor</h2>
+        <h2>Como Criar um Vetor</h2>
         <p>Podemos separar a declaração em duas partes, a declaração do vetor, e a atribuição de seu tamanho ou cumprimento</p>
         <h3>Declação do vetor</h3>
         <p>Aqui informamos ao computador que tipo de dado vamos criar e que tipo de estrutura. Nesse caso a estrutura é um vetor.</p>
