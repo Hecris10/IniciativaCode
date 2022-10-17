@@ -22,10 +22,11 @@ O que são vetores?
 Vetores são estruturas de dados onde podemos guardar um(recomenda-se a partir de dois) ou mais dados numa mesma declaração 
 Para entender melhor vamos se atentar as propriedades do vetor 
 ## Propriedades De Vetores
-Um mesmo vetor tem tamanho máximo de posições que variam de acordo com a possibilidade de memória RAM disónível na máquina 
-O número de posições de um vetor é chamado de tamanho ou cumprimento 
-Um vetor possui um tipo, logo só aceita armazenar dados do mesmo tipo 
-Cientificamente falando, um vetor não armazena nada, mas ela é um ponteiro para locais de memória, ou seja, ela contém informações aonde cada item de sua está armazenada na memória RAM, logo quando uma de suas posiões é chamada ou atribuida ele retorna a localização dela 
+-Um mesmo vetor tem tamanho máximo de posições que variam de acordo com a possibilidade de memória RAM disónível na máquina 
+-O número de posições de um vetor é chamado de tamanho ou cumprimento 
+-Um vetor possui um tipo, logo só aceita armazenar dados do mesmo tipo 
+-Cientificamente falando, um vetor não armazena nada, mas ela é um ponteiro para locais de memória, ou seja, ela contém informações aonde cada item de sua está armazenada na memória RAM, logo quando uma de suas posiões é chamada ou atribuida ele retorna a localização dela
+-A primeira posição de um vetor é a posição 0, logo sempre que se referir a primeira posição de um vetor, deve se o usar o 0. Consulte mais a frente a sessão [atribuição de vetores](#Atribuição-de-Vetores) para entender como acessar as posições dos vetores.
     
 ## Como Criar um Vetor 
 Podemos separar a declaração em duas partes, a declaração do vetor, e a alocação de seu tamanho ou cumprimento 
@@ -82,5 +83,6 @@ bool[,] matrizDeBooleanosComDuasDimensoes = new bool[5,5];
 # Atribuição de Vetores e Matrizes
 Vamos falar sobre como atribuir dados aos vetores e as matrizes. Lembrando que usamos o operador = para atribuir valores.
 ## Atribuição de Vetores
-Para atribuir valores a vetores é semelhante a 
+Para atribuir valores a vetores é semelhante a atribuição de variáveis.
+Para atribuir um valor a um vetor, além de atribuir chamando o nome do vetor, precisamos também indicar a posi
 ## Atribuição de Matrizes
