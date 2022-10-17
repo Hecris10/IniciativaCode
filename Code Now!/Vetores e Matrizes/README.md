@@ -51,7 +51,7 @@ int[] vetorDeInteiros = new int[10];
 decimal[] vetorDeDecimais = new decimal[10];
 double[] vetorDeDouble = new double[10];
 string[] vetorDeString = new double[10];
-bool[] vetorDeBooleanos = new bool[10];
+bool[] vetorBooleano = new bool[10];
 ```         
 # Matrizes
 Podemos informalmente dizer que um vetor para a linguagem C#, é uma Matriz com uma dimensão, uma matriz unitária. Embora conceitualmente não seja, mas podemos pensar assim.
@@ -84,5 +84,14 @@ bool[,] matrizDeBooleanosComDuasDimensoes = new bool[5,5];
 Vamos falar sobre como atribuir dados aos vetores e as matrizes. Lembrando que usamos o operador = para atribuir valores.
 ## Atribuição de Vetores
 Para atribuir valores a vetores é semelhante a atribuição de variáveis.
-Para atribuir um valor a um vetor, além de atribuir chamando o nome do vetor, precisamos também indicar a posi
+Para atribuir um valor a um vetor, além de atribuir chamando o nome do vetor, precisamos também indicar a posição. Lembrando que a posição inicial de um vetor é a zero 0.
+Chama-se o nome do vetor e em seguida usa-se as chaves[] com o numero da posição dentro. Exemplos abaixo;
+```cs
+vetorDeInteiros[0] = 45;
+vetorDeDecimais[150] = 76.5m;
+vetorDeDouble[10] = 15.2;
+vetorDeString[45] = "Hello World";
+vetorBooleano[3] = true;
+```
+
 ## Atribuição de Matrizes
