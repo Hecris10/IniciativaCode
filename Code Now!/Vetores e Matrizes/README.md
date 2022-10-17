@@ -5,19 +5,20 @@
     * [Propriedades De Vetores](#Propriedades-de-Vetores)
     * [Como Criar Um Vetor](#Como-Criar-Um-Vetor)
         * [Declaração de Vetores](#Declaração-de-Vetores)
-        * [Atribuição de Vetores](#Atribuição-de-Vetores)
+        * [Alocação de Vetores](# Alocação-de-Vetores)
 * [Matrizes](#Matrizes)
     * [Propriedade de Matrizes](#Propriedades-de-Matrizes)
     * [Como Criar Uma Matriz](#Como-Criar-Uma-Matriz)
         * [Declaração de Matrizes](#Declaração-de-Matrizes)
-        * [Atribuição de Matrizes](#Atribuição-de-Matrizes)
+        * [Alocação de Matrizes](# Alocação-de-Matrizes)
+* [Acessando Vetores e Matrizes]
 <!--te-->
 
 # Vetores
 
 O que são vetores? 
 Vetores são estruturas de dados onde podemos guardar um(recomenda-se a partir de dois) ou mais dados numa mesma declaração 
-Para entender melhor vamos se atentat as propriedades do vetor 
+Para entender melhor vamos se atentar as propriedades do vetor 
 ## Propriedades De Vetores
 Um mesmo vetor tem tamanho máximo de posições que variam de acordo com a possibilidade de memória RAM disónível na máquina 
 O número de posições de um vetor é chamado de tamanho ou cumprimento 
@@ -25,7 +26,7 @@ Um vetor possui um tipo, logo só aceita armazenar dados do mesmo tipo
 Cientificamente falando, um vetor não armazena nada, mas ela é um ponteiro para locais de memória, ou seja, ela contém informações aonde cada item de sua está armazenada na memória RAM, logo quando uma de suas posiões é chamada ou atribuida ele retorna a localização dela 
     
 ## Como Criar um Vetor 
-Podemos separar a declaração em duas partes, a declaração do vetor, e a atribuição de seu tamanho ou cumprimento 
+Podemos separar a declaração em duas partes, a declaração do vetor, e a alocação de seu tamanho ou cumprimento 
 ### Declaração de Vetores 
 Aqui informamos ao computador que tipo de dado vamos criar e que tipo de estrutura. Nesse caso a estrutura é um vetor. 
 Para a máquina entender que estamos falando que queremos criar um vetor, utilizados [] após a declaração de tipo 
@@ -37,7 +38,7 @@ Para a máquina entender que estamos falando que queremos criar um vetor, utiliz
             bool[] vetorDeBooleanos;
          
 Após a declaração como feita acima, precisamos atribuir a criação do vetor, ou seja, pedir para o Sistema Operacional alocar memória para a quantidade de dados que vamos armazenar neste vetor 
-### Atribuição de Vetores
+###  Alocação de Vetores
 
 Usamos o comando New para informar a alocação de memória para a estrutura de dados, neste caso é um vetor então após usar o New nós chamados o tipo da estrutura, que é um vetor, então o tamanho do nosso vetor 
 No exemplo abaixo estamos usando como exemplo 10 como tamanho 
@@ -65,8 +66,8 @@ Para criar uma matriz é semelhante a um vetor
                 bool[,] matrizDeBooleanosComDuasDimensoes;
              
          
-### Atribuição de Matrizes
-Usamos o comando New para informar a alocação de memória de cada uma das dimensões da matriz e usamos a chamada da estrutura. int[10,10] seria a atribuição de uma matriz de duas dimensões com 10 de tamamho em cada uma das dimensões 
+###  Alocação de Matrizes
+Usamos o comando New para informar a alocação de memória de cada uma das dimensões da matriz e usamos a chamada da estrutura. int[10,10] seria a  Alocação de uma matriz de duas dimensões com 10 de tamamho em cada uma das dimensões 
              
                 int[,,] matrizDeInteirosComTresDimensoes = new int[10,10,10];
                 decimal[,] matrizDeDecimaisComDuasDimensoes = new decimal[10,5];
