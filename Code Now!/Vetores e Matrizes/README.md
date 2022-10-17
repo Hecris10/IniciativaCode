@@ -9,8 +9,8 @@
 * [Matrizes](#Matrizes)
     * [Propriedade de Matrizes](#Propriedades-de-Matrizes)
     * [Como Criar Uma Matriz](#Como-Criar-Uma-Matriz)
-        * [Declaração de Matrizes](#Declaracao-de-Matrizes)
-        * [Atribuição de Matrizes](#Atribuicao-de-Matrizes)
+        * [Declaração de Matrizes](#Declaração-de-Matrizes)
+        * [Atribuição de Matrizes](#Atribuição-de-Matrizes)
 <!--te-->
 
 # Vetores
