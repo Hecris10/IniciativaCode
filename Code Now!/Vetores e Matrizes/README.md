@@ -2,13 +2,15 @@
 
 <!--ts-->
 * [Vetores](#Vetores)
-    * [Propriedade de Vetores](#Propriedades-De-Vetores)
-    * [Declaração de um Vetor](#VetoresDeclaracao)
-    * [Atribuição de um Vetor](#VetoresAtribuicao)
+    * [Propriedades De Vetores](#Propriedades-de-Vetores)
+    * [Como Criar Um Vetor](#Como-Criar-Um-Vetor)
+        * [Declaracação de Vetores](#Declaracao-de-Vetores)
+        * [Atribuição de Vetores](#Atribuicao-de-Vetores)
 * [Matrizes](#Matrizes)
-    * [Propriedade de Matrizes](#MatrizesPropriedades)
-    * [Declaração de uma Matriz](#MatrizDeclaracao)
-    * [Atribuição de uma Matriz](#MatrizAtribuicao)
+    * [Propriedade de Matrizes](#Propriedades-de-Matrizes)
+    * [Como Criar Uma Matriz](#Como-Criar-Uma-Matriz)
+        * [Declaração de Matrizes](#Declaracao-de-Matrizes)
+        * [Atribuição de Matrizes](#Atribuicao-de-Matrizes)
 <!--te-->
 
 # Vetores
@@ -22,9 +24,9 @@ O número de posições de um vetor é chamado de tamanho ou cumprimento
 Um vetor possui um tipo, logo só aceita armazenar dados do mesmo tipo 
 Cientificamente falando, um vetor não armazena nada, mas ela é um ponteiro para locais de memória, ou seja, ela contém informações aonde cada item de sua está armazenada na memória RAM, logo quando uma de suas posiões é chamada ou atribuida ele retorna a localização dela 
     
- Como Criar um Vetor 
- Podemos separar a declaração em duas partes, a declaração do vetor, e a atribuição de seu tamanho ou cumprimento 
-Declação do vetor 
+## Como Criar um Vetor 
+Podemos separar a declaração em duas partes, a declaração do vetor, e a atribuição de seu tamanho ou cumprimento 
+### Declaração de Vetores 
 Aqui informamos ao computador que tipo de dado vamos criar e que tipo de estrutura. Nesse caso a estrutura é um vetor. 
 Para a máquina entender que estamos falando que queremos criar um vetor, utilizados [] após a declaração de tipo 
          
@@ -35,7 +37,8 @@ Para a máquina entender que estamos falando que queremos criar um vetor, utiliz
             bool[] vetorDeBooleanos;
          
 Após a declaração como feita acima, precisamos atribuir a criação do vetor, ou seja, pedir para o Sistema Operacional alocar memória para a quantidade de dados que vamos armazenar neste vetor 
-Atribuição do Vetor 
+### Atribuição de Vetores
+
 Usamos o comando New para informar a alocação de memória para a estrutura de dados, neste caso é um vetor então após usar o New nós chamados o tipo da estrutura, que é um vetor, então o tamanho do nosso vetor 
 No exemplo abaixo estamos usando como exemplo 10 como tamanho 
          
@@ -45,9 +48,12 @@ No exemplo abaixo estamos usando como exemplo 10 como tamanho
             string[] vetorDeString = new double[10];
             bool[] vetorDeBooleanos = new bool[10];
          
-Como criar uma Matriz 
-Declação do vetor 
-Podemos informalmente dizer que um vetor para a linguagem C#, é uma Matriz com uma dimensão, uma matriz unitária. Embora conceitualmente não seja, mas podemos pensar assim 
+# Matrizes
+Podemos informalmente dizer que um vetor para a linguagem C#, é uma Matriz com uma dimensão, uma matriz unitária. Embora conceitualmente não seja, mas podemos pensar assim.
+## Propriedade de Matrizes
+As propriedades das matrizes são semelhantes as propriedades dos vetores
+## Como Criar Uma Matriz
+
 Logo para criar uma matriz é semelhante a um vetor, a diferença é que informamos o número de dimensões dessa matriz. Usamos uma vírgula dentro do dos colchetes: [,] para dividir o vetor em duas dimensões ou mais. Para [,,], para quatro [,,,] 
              
                 int[,,] matrizDeInteirosComTresDimensoes;
