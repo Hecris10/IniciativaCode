@@ -1,7 +1,7 @@
 # Vetores e Matrizes
 
 <!--ts-->
-* [Vetores](##Vetores)
+* [Vetores](#Vetores)
     * [Propriedade de Vetores](#VetoresPropriedades)
     * [Declaração de um Vetor](#VetoresDeclaracao)
     * [Atribuição de um Vetor](#VetoresAtribuicao)
@@ -11,7 +11,7 @@
     * [Atribuição de uma Matriz](#MatrizAtribuicao)
 <!--te-->
 
-## Vetores
+#Vetores
 
 O que são vetores? 
 Vetores são estruturas de dados onde podemos guardar um(recomenda-se a partir de dois) ou mais dados numa mesma declaração 
