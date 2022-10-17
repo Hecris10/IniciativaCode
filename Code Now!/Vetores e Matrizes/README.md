@@ -12,13 +12,13 @@
         <h3>Declação do vetor</h3>
         <p>Aqui informamos ao computador que tipo de dado vamos criar e que tipo de estrutura. Nesse caso a estrutura é um vetor.</p>
         <p>Para a máquina entender que estamos falando que queremos criar um vetor, utilizados [] após a declaração de tipo</p>
-        <code>
+        
             int[] vetorDeInteiros;
             decimal[] vetorDeDecimais;
             double[] vetorDeDouble;
             string[] vetorDeString;
             bool[] vetorDeBooleanos;
-        </code>
+       
         <p>Após a declaração como feita acima, precisamos atribuir a criação do vetor, ou seja, pedir para o Sistema Operacional alocar memória para a quantidade de dados que vamos armazenar neste vetor</p>
         <h3>Atribuição do Vetor</h3>
         <p>Usamos o comando New para informar a alocação de memória para a estrutura de dados, neste caso é um vetor então após usar o New nós chamados o tipo da estrutura, que é um vetor, então o tamanho do nosso vetor</p>
