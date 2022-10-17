@@ -32,25 +32,26 @@ Podemos separar a declaração em duas partes, a declaração do vetor, e a aloc
 ### Declaração de Vetores 
 Aqui informamos ao computador que tipo de dado vamos criar e que tipo de estrutura. Nesse caso a estrutura é um vetor. 
 Para a máquina entender que estamos falando que queremos criar um vetor, utilizados [] após a declaração de tipo 
-         
-            int[] vetorDeInteiros;
-            decimal[] vetorDeDecimais;
-            double[] vetorDeDouble;
-            string[] vetorDeString;
-            bool[] vetorDeBooleanos;
-         
+
+```cs         
+int[] vetorDeInteiros;
+decimal[] vetorDeDecimais;
+double[] vetorDeDouble;
+string[] vetorDeString;
+bool[] vetorDeBooleanos;
+```
 Após a declaração como feita acima, precisamos atribuir a criação do vetor, ou seja, pedir para o Sistema Operacional alocar memória para a quantidade de dados que vamos armazenar neste vetor 
 ### Alocação de Vetores
 
 Usamos o comando New para informar a alocação de memória para a estrutura de dados, neste caso é um vetor então após usar o New nós chamados o tipo da estrutura, que é um vetor, então o tamanho do nosso vetor 
 No exemplo abaixo estamos usando como exemplo 10 como tamanho 
-         
-            int[] vetorDeInteiros = new int[10];
-            decimal[] vetorDeDecimais = new decimal[10];
-            double[] vetorDeDouble = new double[10];
-            string[] vetorDeString = new double[10];
-            bool[] vetorDeBooleanos = new bool[10];
-         
+```cs         
+int[] vetorDeInteiros = new int[10];
+decimal[] vetorDeDecimais = new decimal[10];
+double[] vetorDeDouble = new double[10];
+string[] vetorDeString = new double[10];
+bool[] vetorDeBooleanos = new bool[10];
+```         
 # Matrizes
 Podemos informalmente dizer que um vetor para a linguagem C#, é uma Matriz com uma dimensão, uma matriz unitária. Embora conceitualmente não seja, mas podemos pensar assim.
 ## Propriedades de Matrizes
@@ -60,13 +61,13 @@ Para criar uma matriz é semelhante a um vetor
 
 ### Declaração de Matrizes
 É semelhante a declaração de vetores, a diferença é que informamos o número de dimensões dessa matriz. Usamos uma vírgula dentro do dos colchetes: [,] para dividir o vetor em duas dimensões ou mais. Para trÊs [,,], para quatro [,,,] 
-             
-                int[,,] matrizDeInteirosComTresDimensoes;
-                decimal[,] matrizDeDecimaisComDuasDimensoes;
-                double[,,,] matrizDeDoubleComQuatroDimensoes;
-                string[,,,,] matrizDeStringComCincoDimensoes;
-                bool[,] matrizDeBooleanosComDuasDimensoes;
-             
+```cs           
+int[,,] matrizDeInteirosComTresDimensoes;
+decimal[,] matrizDeDecimaisComDuasDimensoes;
+double[,,,] matrizDeDoubleComQuatroDimensoes;
+string[,,,,] matrizDeStringComCincoDimensoes;
+bool[,] matrizDeBooleanosComDuasDimensoes;
+```             
          
 ### Alocação de Matrizes
 Usamos o comando New para informar a alocação de memória de cada uma das dimensões da matriz e usamos a chamada da estrutura. int[10,10] seria a  Alocação de uma matriz de duas dimensões com 10 de tamamho em cada uma das dimensões 
