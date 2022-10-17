@@ -5,12 +5,12 @@
     * [Propriedades De Vetores](#Propriedades-de-Vetores)
     * [Como Criar Um Vetor](#Como-Criar-Um-Vetor)
         * [Declaração de Vetores](#Declaração-de-Vetores)
-        * [Alocação de Vetores](# Alocação-de-Vetores)
+        * [Alocação de Vetores](#Alocação-de-Vetores)
 * [Matrizes](#Matrizes)
     * [Propriedade de Matrizes](#Propriedades-de-Matrizes)
     * [Como Criar Uma Matriz](#Como-Criar-Uma-Matriz)
         * [Declaração de Matrizes](#Declaração-de-Matrizes)
-        * [Alocação de Matrizes](# Alocação-de-Matrizes)
+        * [Alocação de Matrizes](#Alocação-de-Matrizes)
 * [Acessando Vetores e Matrizes]
 <!--te-->
 
@@ -38,7 +38,7 @@ Para a máquina entender que estamos falando que queremos criar um vetor, utiliz
             bool[] vetorDeBooleanos;
          
 Após a declaração como feita acima, precisamos atribuir a criação do vetor, ou seja, pedir para o Sistema Operacional alocar memória para a quantidade de dados que vamos armazenar neste vetor 
-###  Alocação de Vetores
+### Alocação de Vetores
 
 Usamos o comando New para informar a alocação de memória para a estrutura de dados, neste caso é um vetor então após usar o New nós chamados o tipo da estrutura, que é um vetor, então o tamanho do nosso vetor 
 No exemplo abaixo estamos usando como exemplo 10 como tamanho 
@@ -66,7 +66,7 @@ Para criar uma matriz é semelhante a um vetor
                 bool[,] matrizDeBooleanosComDuasDimensoes;
              
          
-###  Alocação de Matrizes
+### Alocação de Matrizes
 Usamos o comando New para informar a alocação de memória de cada uma das dimensões da matriz e usamos a chamada da estrutura. int[10,10] seria a  Alocação de uma matriz de duas dimensões com 10 de tamamho em cada uma das dimensões 
              
                 int[,,] matrizDeInteirosComTresDimensoes = new int[10,10,10];
