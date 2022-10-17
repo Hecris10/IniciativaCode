@@ -70,15 +70,16 @@ Para criar uma matriz é semelhante a um vetor
          
 ### Alocação de Matrizes
 Usamos o comando New para informar a alocação de memória de cada uma das dimensões da matriz e usamos a chamada da estrutura. int[10,10] seria a  Alocação de uma matriz de duas dimensões com 10 de tamamho em cada uma das dimensões 
-             
+          '''   
                 int[,,] matrizDeInteirosComTresDimensoes = new int[10,10,10];
                 decimal[,] matrizDeDecimaisComDuasDimensoes = new decimal[10,5];
                 double[,,,] matrizDeDoubleComQuatroDimensoes = new double[10,10,5,5];
                 string[,,,,] matrizDeStringComCincoDimensoes = new string[10,10,10,5,5];
                 bool[,] matrizDeBooleanosComDuasDimensoes = new bool[5,5];
+            '''
 
 # Atribuição de Vetores e Matrizes
 Vamos falar sobre como atribuir dados aos vetores e as matrizes. Lembrando que usamos o operador = para atribuir valores.
 ## Atribuição de Vetores
-
+Para atribuir valores a vetores é semelhante a 
 ## Atribuição de Matrizes
