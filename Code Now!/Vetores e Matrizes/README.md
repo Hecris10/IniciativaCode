@@ -1,5 +1,4 @@
 <h1>Vetores e Matrizes<h1>
-    <hr>
     <h2>O que são vetores?</h2>
         <p>Vetores são estruturas de dados onde podemos guardar um(recomenda-se a partir de dois) ou mais dados numa mesma declaração</p>
         <p>Para entender melhor vamos nos atentar as propriedades do vetor</p>
