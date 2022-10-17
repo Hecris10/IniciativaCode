@@ -11,7 +11,9 @@
     * [Como Criar Uma Matriz](#Como-Criar-Uma-Matriz)
         * [Declaração de Matrizes](#Declaração-de-Matrizes)
         * [Alocação de Matrizes](#Alocação-de-Matrizes)
-* [Acessando Vetores e Matrizes]
+* [Atribuição de Vetores e Matrizes](#Atribuição-De-Vetores-e-Matrizes)
+    * [Atribuição de Vetores](#Atribuição-de-Vetores)
+
 <!--te-->
 
 # Vetores
@@ -74,4 +76,9 @@ Usamos o comando New para informar a alocação de memória de cada uma das dime
                 double[,,,] matrizDeDoubleComQuatroDimensoes = new double[10,10,5,5];
                 string[,,,,] matrizDeStringComCincoDimensoes = new string[10,10,10,5,5];
                 bool[,] matrizDeBooleanosComDuasDimensoes = new bool[5,5];
-             
+
+# Atribuição de Vetores e Matrizes
+Vamos falar sobre como atribuir dados aos vetores e as matrizes. Lembrando que usamos o operador = para atribuir valores.
+## Atribuição de Vetores
+
+## Atribuição de Matrizes
