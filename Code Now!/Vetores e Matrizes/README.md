@@ -53,8 +53,10 @@ Podemos informalmente dizer que um vetor para a linguagem C#, é uma Matriz com 
 ## Propriedades de Matrizes
 As propriedades das matrizes são semelhantes as propriedades dos vetores
 ## Como Criar Uma Matriz
+Para criar uma matriz é semelhante a um vetor
 
-Logo para criar uma matriz é semelhante a um vetor, a diferença é que informamos o número de dimensões dessa matriz. Usamos uma vírgula dentro do dos colchetes: [,] para dividir o vetor em duas dimensões ou mais. Para [,,], para quatro [,,,] 
+### Declaração de Matrizes
+É semelhante a declaração de vetores, a diferença é que informamos o número de dimensões dessa matriz. Usamos uma vírgula dentro do dos colchetes: [,] para dividir o vetor em duas dimensões ou mais. Para trÊs [,,], para quatro [,,,] 
              
                 int[,,] matrizDeInteirosComTresDimensoes;
                 decimal[,] matrizDeDecimaisComDuasDimensoes;
@@ -63,7 +65,7 @@ Logo para criar uma matriz é semelhante a um vetor, a diferença é que informa
                 bool[,] matrizDeBooleanosComDuasDimensoes;
              
          
-Atribuição da Matriz 
+### Atribuição de Matrizes
 Usamos o comando New para informar a alocação de memória de cada uma das dimensões da matriz e usamos a chamada da estrutura. int[10,10] seria a atribuição de uma matriz de duas dimensões com 10 de tamamho em cada uma das dimensões 
              
                 int[,,] matrizDeInteirosComTresDimensoes = new int[10,10,10];
