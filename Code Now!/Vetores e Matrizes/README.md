@@ -70,7 +70,7 @@ Para criar uma matriz é semelhante a um vetor
          
 ### Alocação de Matrizes
 Usamos o comando New para informar a alocação de memória de cada uma das dimensões da matriz e usamos a chamada da estrutura. int[10,10] seria a  Alocação de uma matriz de duas dimensões com 10 de tamamho em cada uma das dimensões 
-```
+```cs
 int[,,] matrizDeInteirosComTresDimensoes = new int[10,10,10];
 decimal[,] matrizDeDecimaisComDuasDimensoes = new decimal[10,5];
 double[,,,] matrizDeDoubleComQuatroDimensoes = new double[10,10,5,5];
