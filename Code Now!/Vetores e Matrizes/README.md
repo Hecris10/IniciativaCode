@@ -13,7 +13,7 @@
         * [Alocação de Matrizes](#Alocação-de-Matrizes)
 * [Atribuição de Vetores e Matrizes](#Atribuição-De-Vetores-e-Matrizes)
     * [Atribuição de Vetores](#Atribuição-de-Vetores)
-
+    * [Atribuição de Matrizes](#Atribuição-de-Matrizes)
 <!--te-->
 
 # Vetores
