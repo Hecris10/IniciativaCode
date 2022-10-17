@@ -50,7 +50,7 @@ No exemplo abaixo estamos usando como exemplo 10 como tamanho
          
 # Matrizes
 Podemos informalmente dizer que um vetor para a linguagem C#, é uma Matriz com uma dimensão, uma matriz unitária. Embora conceitualmente não seja, mas podemos pensar assim.
-## Propriedade de Matrizes
+## Propriedades de Matrizes
 As propriedades das matrizes são semelhantes as propriedades dos vetores
 ## Como Criar Uma Matriz
 
