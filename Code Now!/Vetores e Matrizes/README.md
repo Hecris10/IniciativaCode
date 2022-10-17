@@ -2,7 +2,7 @@
 
 <!--ts-->
 * [Vetores](#Vetores)
-    * [Propriedade de Vetores](#PropriedadesDeVetores)
+    * [Propriedade de Vetores](#Propriedades-De-Vetores)
     * [Declaração de um Vetor](#VetoresDeclaracao)
     * [Atribuição de um Vetor](#VetoresAtribuicao)
 * [Matrizes](#Matrizes)
