@@ -14,6 +14,7 @@
 * [Atribuição de Vetores e Matrizes](#Atribuição-De-Vetores-e-Matrizes)
     * [Atribuição de Vetores](#Atribuição-de-Vetores)
     * [Atribuição de Matrizes](#Atribuição-de-Matrizes)
+* [Percorrer Vetores e Matrizes](#Percorrer-Vetores-e-Matrizes)
 <!--te-->
 
 # Vetores
@@ -95,3 +96,35 @@ vetorBooleano[3] = true;
 ```
 
 ## Atribuição de Matrizes
+Para atribuir valores a matrizes é semelhante, apenas usamos a virgua dentro dos colchetes[] para separas as coordenadas de cada uma das dimensões.
+```cs
+matrizDeInteirosDeDuasDimensoes[0,0] = 45;
+matrizDeDecimaisDeTresDimensoes[1,4,3] = 65.4m;
+matrizDeDoublesDeQuatroDimensoes[4,3,4] = 1745,4;
+matrizDeStringDeCincoDimensoes[5,3,2,5] = "Hello World";
+matrizBooleanaDeDuasDimensoes[4,9] = false;
+```
+# Percorrer Vetores e Matrizes
+Para percorrer vetores e matrizes é preciso automatizar esse processo, principalmente quando temos um quantidade de posições gigantesca.
+Para isso podemos usar controle de fluxos para percorrer o vetor ou a matriz.
+## Percorrendo Vetores
+No exemplo aqui usaremos um vetor de inteiros de tamamho 20
+```cs
+int vetorDeInteiros[20] = new int[20];
+
+//Usando um laço de repetição 'for' que começa com zero e se repete enquanto a variável i for menor que 20
+//A variável i armazena a posição atual em que o vetor vai ser varrido, a cada icrementação de i, a posição do vetor atualiza pra próxima
+//Em cada posição do vetor, é atribuido o valor de i+1 mais um, aqui estamos preenchendo o vetor com números de 1 a 20
+for(int i=0;i<20;i++){
+    vetorDeInteiros[i] = i+1;
+}
+```
+Agora vamos imprimir na tela os dados do vetor
+```cs
+for(int i=0;i<20;i++){
+    Console.Write(vetorDeInteiros[i]);
+}
+```
+O output desse código pode ser encontrado abaixo
+
+
