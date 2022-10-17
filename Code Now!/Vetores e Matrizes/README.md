@@ -2,7 +2,7 @@
 
 <!--ts-->
 * [Vetores](#Vetores)
-    * [Propriedade de Vetores](#VetoresPropriedades)
+    * [Propriedade de Vetores](#PropriedadesDosVetores)
     * [Declaração de um Vetor](#VetoresDeclaracao)
     * [Atribuição de um Vetor](#VetoresAtribuicao)
 * [Matrizes](#Matrizes)
@@ -11,12 +11,12 @@
     * [Atribuição de uma Matriz](#MatrizAtribuicao)
 <!--te-->
 
-# Vetores
+#Vetores
 
 O que são vetores? 
 Vetores são estruturas de dados onde podemos guardar um(recomenda-se a partir de dois) ou mais dados numa mesma declaração 
 Para entender melhor vamos se atentat as propriedades do vetor 
-Propriedades de um Vetor 
+## Propriedades dos Vetores
 Um mesmo vetor tem tamanho máximo de posições que variam de acordo com a possibilidade de memória RAM disónível na máquina 
 O número de posições de um vetor é chamado de tamanho ou cumprimento 
 Um vetor possui um tipo, logo só aceita armazenar dados do mesmo tipo 
