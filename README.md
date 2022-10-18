@@ -1,2 +1,2 @@
 # IniciativaCode
-[Material do Curso Code Now!](Code-Now!)
+[Material do Curso Code Now!](Code%20Now!)
