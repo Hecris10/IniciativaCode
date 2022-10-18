@@ -6,6 +6,7 @@
     * [Como Criar Um Vetor](#Como-Criar-Um-Vetor)
         * [Declaração de Vetores](#Declaração-de-Vetores)
         * [Alocação de Vetores](#Alocação-de-Vetores)
+        * [O Tamanho de um Vetor](#Tamanho-de-um-Vetor)
 * [Matrizes](#Matrizes)
     * [Propriedade de Matrizes](#Propriedades-de-Matrizes)
     * [Como Criar Uma Matriz](#Como-Criar-Uma-Matriz)
@@ -15,6 +16,8 @@
     * [Atribuição de Vetores](#Atribuição-de-Vetores)
     * [Atribuição de Matrizes](#Atribuição-de-Matrizes)
 * [Percorrer Vetores e Matrizes](#Percorrer-Vetores-e-Matrizes)
+    * [Percorrendo Vetores](#Percorrendo-Vetores)
+    * [Percorrendo Matrizes](#Percorrendo-Matrizes)
 <!--te-->
 
 # Vetores
@@ -54,6 +57,15 @@ double[] vetorDeDouble = new double[10];
 string[] vetorDeString = new double[10];
 bool[] vetorBooleano = new bool[10];
 ```         
+### Tamanho de um Vetor
+    Existe uma função padrão em C# que se chama Length. Ela retorna o tamanho do vetor.
+```cs
+int[] vetorDeInteiros = new int[10];
+
+Console.WriteLine(vetorDeInteiros.Length);
+```
+O output do código será 10 pois 10 é o tamanho do vetor
+
 # Matrizes
 Podemos informalmente dizer que um vetor para a linguagem C#, é uma Matriz com uma dimensão, uma matriz unitária. Embora conceitualmente não seja, mas podemos pensar assim.
 ## Propriedades de Matrizes
@@ -129,4 +141,40 @@ O output desse código pode ser encontrado abaixo
 ```
 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
 ```
+
+## Percorrendo Matrizes
+
+Para percorrer Matrizes é semelhante a Vetores, porém para cada elemento do primeiro vetor, temos que percorrer outro vetor subsequente
+Para cada item da linha, há uma coluna a ser percorredinda.
+Usamos um for dentro do outro para percorrer.
+
+QUANTOS FOR DEVEO USAR?
+O número de dimensões da matriz é o número de Fors dentro do outro.
+
+```cs
+//Para uma matriz de duas dimensões
+int[,] matriz = new Matriz[10,5];
+
+for(int i=0; i<10 ; i++){
+    for(int j=0; j<5; j++>){
+        matriz[i,j] = j;
+    }
+}
+```
+
+```cs
+//Para uma matriz de quatro dimensões
+int[,] matriz = new Matriz[10,10,5,5];
+
+for(int i=0; i<10 ; i++){
+    for(int j=0; j<10; j++>){
+       for(int k=0; k<5; k++){
+        for(int l=0; l<10; l++){
+            matriz[i,j,k,l] = l;
+        }
+       }
+    }
+}
+```
+
 
