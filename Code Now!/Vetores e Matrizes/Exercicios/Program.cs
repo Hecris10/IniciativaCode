@@ -1,4 +1,4 @@
-﻿//EXERCIOS DE VETORES
+﻿//exercicioS DE VETORES
 
 int[] exercicio01(int[] vetor)
 {
@@ -195,7 +195,7 @@ decimal exercicio09(int[] vetor)
     return media;
 }
 
-int exercio10(int[] vetor)
+int exercicio10(int[] vetor)
 {
     //Faça um programa que retorne o maior elemento de um vetor de inteiros
     int maiorNumero = vetor[0];
@@ -207,7 +207,7 @@ int exercio10(int[] vetor)
     return maiorNumero;
 }
 
-int exercio11(int[] vetor)
+int exercicio11(int[] vetor)
 {
     //Faça um programa que retorne o menor elemento de um vetor de inteiros.
     int maiorNumero = vetor[0];
