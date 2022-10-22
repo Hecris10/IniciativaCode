@@ -1,5 +1,7 @@
 # EXERCICIOS DE VETORES
 
+Você pode encontrar as resoluções do exercicios [Aqui](Program.cs)
+
 ## Exercicio 01
 Faça um programa que imprima os elementos de um vetor.
 Você pode usar este vetor com os seguintes dados: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20
