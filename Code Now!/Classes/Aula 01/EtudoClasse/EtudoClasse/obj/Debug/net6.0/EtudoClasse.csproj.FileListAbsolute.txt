@@ -1,0 +1,15 @@
+D:\Workspace\dotNET\Alunos-Projeto\StudentsAPI\EtudoClasse\EtudoClasse\bin\Debug\net6.0\EtudoClasse.exe
+D:\Workspace\dotNET\Alunos-Projeto\StudentsAPI\EtudoClasse\EtudoClasse\bin\Debug\net6.0\EtudoClasse.deps.json
+D:\Workspace\dotNET\Alunos-Projeto\StudentsAPI\EtudoClasse\EtudoClasse\bin\Debug\net6.0\EtudoClasse.runtimeconfig.json
+D:\Workspace\dotNET\Alunos-Projeto\StudentsAPI\EtudoClasse\EtudoClasse\bin\Debug\net6.0\EtudoClasse.dll
+D:\Workspace\dotNET\Alunos-Projeto\StudentsAPI\EtudoClasse\EtudoClasse\bin\Debug\net6.0\EtudoClasse.pdb
+D:\Workspace\dotNET\Alunos-Projeto\StudentsAPI\EtudoClasse\EtudoClasse\obj\Debug\net6.0\EtudoClasse.csproj.AssemblyReference.cache
+D:\Workspace\dotNET\Alunos-Projeto\StudentsAPI\EtudoClasse\EtudoClasse\obj\Debug\net6.0\EtudoClasse.GeneratedMSBuildEditorConfig.editorconfig
+D:\Workspace\dotNET\Alunos-Projeto\StudentsAPI\EtudoClasse\EtudoClasse\obj\Debug\net6.0\EtudoClasse.AssemblyInfoInputs.cache
+D:\Workspace\dotNET\Alunos-Projeto\StudentsAPI\EtudoClasse\EtudoClasse\obj\Debug\net6.0\EtudoClasse.AssemblyInfo.cs
+D:\Workspace\dotNET\Alunos-Projeto\StudentsAPI\EtudoClasse\EtudoClasse\obj\Debug\net6.0\EtudoClasse.csproj.CoreCompileInputs.cache
+D:\Workspace\dotNET\Alunos-Projeto\StudentsAPI\EtudoClasse\EtudoClasse\obj\Debug\net6.0\EtudoClasse.dll
+D:\Workspace\dotNET\Alunos-Projeto\StudentsAPI\EtudoClasse\EtudoClasse\obj\Debug\net6.0\refint\EtudoClasse.dll
+D:\Workspace\dotNET\Alunos-Projeto\StudentsAPI\EtudoClasse\EtudoClasse\obj\Debug\net6.0\EtudoClasse.pdb
+D:\Workspace\dotNET\Alunos-Projeto\StudentsAPI\EtudoClasse\EtudoClasse\obj\Debug\net6.0\EtudoClasse.genruntimeconfig.cache
+D:\Workspace\dotNET\Alunos-Projeto\StudentsAPI\EtudoClasse\EtudoClasse\obj\Debug\net6.0\ref\EtudoClasse.dll
