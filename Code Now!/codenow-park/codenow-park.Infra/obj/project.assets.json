@@ -3934,11 +3934,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "K:\\!Projetos\\!ProjetosCodeNow\\EstacionamentoCodeNow\\codenow-park\\codenow-park.Infra\\codenow-park.Infra.csproj",
+      "projectUniqueName": "K:\\!DriverVirtual\\OneDrive\\Documentos\\GitHub\\IniciativaCode\\Code Now!\\codenow-park\\codenow-park.Infra\\codenow-park.Infra.csproj",
       "projectName": "codenow-park.Infra",
-      "projectPath": "K:\\!Projetos\\!ProjetosCodeNow\\EstacionamentoCodeNow\\codenow-park\\codenow-park.Infra\\codenow-park.Infra.csproj",
+      "projectPath": "K:\\!DriverVirtual\\OneDrive\\Documentos\\GitHub\\IniciativaCode\\Code Now!\\codenow-park\\codenow-park.Infra\\codenow-park.Infra.csproj",
       "packagesPath": "C:\\Users\\maxim\\.nuget\\packages\\",
-      "outputPath": "K:\\!Projetos\\!ProjetosCodeNow\\EstacionamentoCodeNow\\codenow-park\\codenow-park.Infra\\obj\\",
+      "outputPath": "K:\\!DriverVirtual\\OneDrive\\Documentos\\GitHub\\IniciativaCode\\Code Now!\\codenow-park\\codenow-park.Infra\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
@@ -3963,8 +3963,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "K:\\!Projetos\\!ProjetosCodeNow\\EstacionamentoCodeNow\\codenow-park\\codenow-park.dominio\\codenow-park.Dominio.csproj": {
-              "projectPath": "K:\\!Projetos\\!ProjetosCodeNow\\EstacionamentoCodeNow\\codenow-park\\codenow-park.dominio\\codenow-park.Dominio.csproj"
+            "K:\\!DriverVirtual\\OneDrive\\Documentos\\GitHub\\IniciativaCode\\Code Now!\\codenow-park\\codenow-park.dominio\\codenow-park.Dominio.csproj": {
+              "projectPath": "K:\\!DriverVirtual\\OneDrive\\Documentos\\GitHub\\IniciativaCode\\Code Now!\\codenow-park\\codenow-park.dominio\\codenow-park.Dominio.csproj"
             }
           }
         }

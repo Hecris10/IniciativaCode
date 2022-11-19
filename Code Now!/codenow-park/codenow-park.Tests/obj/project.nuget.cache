@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2votmQ0Jq75S/HsytFwbyaQT4F2o4ZwY8zyvZpmKlljKS4JAxmgizHSsYqHifMBOdOTLw9TLZ9RaoYC3zT/sEQ==",
+  "dgSpecHash": "LNaroXb5sDBbogJMZZU394b+hqmJARv9xsfZtzVLyAKf47rqzFm0O5TiWpbvuisvRiKmVZjawRlH/wuny7r6TA==",
   "success": true,
-  "projectFilePath": "K:\\!Projetos\\!ProjetosCodeNow\\EstacionamentoCodeNow\\codenow-park\\codenow-park.Tests\\codenow-park.Tests.csproj",
+  "projectFilePath": "K:\\!DriverVirtual\\OneDrive\\Documentos\\GitHub\\IniciativaCode\\Code Now!\\codenow-park\\codenow-park.Tests\\codenow-park.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\maxim\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\maxim\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

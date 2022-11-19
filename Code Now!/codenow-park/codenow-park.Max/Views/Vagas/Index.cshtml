@@ -4,10 +4,10 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<h1>@Model.FirstOrDefault().Estacionamento.Nome</h1>
 
 <p>
-    <a asp-action="Create">Estacionar</a>
+    <a asp-action="Create" asp-route-estacionamentoId=@Model.FirstOrDefault().EstacionamentoId>Estacionar</a>
 </p>
 <table class="table">
     <thead>

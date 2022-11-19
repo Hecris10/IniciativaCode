@@ -62,7 +62,7 @@ namespace codenow_park.Max.Controllers
         }
 
         // GET: Veiculos/Create
-        public IActionResult Create()
+        public IActionResult Create(int? estacionamentoId)
         {
             var vaga = new Vaga(); // { EstacionamentoId = id };
             ViewBag.Estacionamento = (from x in _context.Estacionamentos
@@ -91,7 +91,7 @@ namespace codenow_park.Max.Controllers
             {
                 _context.Add(vaga);
                 await _context.SaveChangesAsync();
-                return RedirectToAction("Index", "Estacionamentos");
+                return RedirectToAction("Index", "Vagas", new { id = vaga.EstacionamentoId });
             }
             return View(vaga);
         }

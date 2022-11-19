@@ -3957,11 +3957,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "K:\\!Projetos\\!ProjetosCodeNow\\EstacionamentoCodeNow\\codenow-park\\codenow-park.Mvc\\codenow-park.Mvc.csproj",
+      "projectUniqueName": "K:\\!DriverVirtual\\OneDrive\\Documentos\\GitHub\\IniciativaCode\\Code Now!\\codenow-park\\codenow-park.Mvc\\codenow-park.Mvc.csproj",
       "projectName": "codenow-park.Mvc",
-      "projectPath": "K:\\!Projetos\\!ProjetosCodeNow\\EstacionamentoCodeNow\\codenow-park\\codenow-park.Mvc\\codenow-park.Mvc.csproj",
+      "projectPath": "K:\\!DriverVirtual\\OneDrive\\Documentos\\GitHub\\IniciativaCode\\Code Now!\\codenow-park\\codenow-park.Mvc\\codenow-park.Mvc.csproj",
       "packagesPath": "C:\\Users\\maxim\\.nuget\\packages\\",
-      "outputPath": "K:\\!Projetos\\!ProjetosCodeNow\\EstacionamentoCodeNow\\codenow-park\\codenow-park.Mvc\\obj\\",
+      "outputPath": "K:\\!DriverVirtual\\OneDrive\\Documentos\\GitHub\\IniciativaCode\\Code Now!\\codenow-park\\codenow-park.Mvc\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
@@ -3986,11 +3986,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "K:\\!Projetos\\!ProjetosCodeNow\\EstacionamentoCodeNow\\codenow-park\\codenow-park.dominio\\codenow-park.Dominio.csproj": {
-              "projectPath": "K:\\!Projetos\\!ProjetosCodeNow\\EstacionamentoCodeNow\\codenow-park\\codenow-park.dominio\\codenow-park.Dominio.csproj"
+            "K:\\!DriverVirtual\\OneDrive\\Documentos\\GitHub\\IniciativaCode\\Code Now!\\codenow-park\\codenow-park.dominio\\codenow-park.Dominio.csproj": {
+              "projectPath": "K:\\!DriverVirtual\\OneDrive\\Documentos\\GitHub\\IniciativaCode\\Code Now!\\codenow-park\\codenow-park.dominio\\codenow-park.Dominio.csproj"
             },
-            "K:\\!Projetos\\!ProjetosCodeNow\\EstacionamentoCodeNow\\codenow-park\\codenow-park.Infra\\codenow-park.Infra.csproj": {
-              "projectPath": "K:\\!Projetos\\!ProjetosCodeNow\\EstacionamentoCodeNow\\codenow-park\\codenow-park.Infra\\codenow-park.Infra.csproj"
+            "K:\\!DriverVirtual\\OneDrive\\Documentos\\GitHub\\IniciativaCode\\Code Now!\\codenow-park\\codenow-park.Infra\\codenow-park.Infra.csproj": {
+              "projectPath": "K:\\!DriverVirtual\\OneDrive\\Documentos\\GitHub\\IniciativaCode\\Code Now!\\codenow-park\\codenow-park.Infra\\codenow-park.Infra.csproj"
             }
           }
         }

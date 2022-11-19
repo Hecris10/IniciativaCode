@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "K:\\!Projetos\\!ProjetosCodeNow\\EstacionamentoCodeNow\\codenow-park\\codenow-park.dominio\\codenow-park.dominio.csproj",
-      "projectName": "codenow-park.dominio",
-      "projectPath": "K:\\!Projetos\\!ProjetosCodeNow\\EstacionamentoCodeNow\\codenow-park\\codenow-park.dominio\\codenow-park.dominio.csproj",
+      "projectUniqueName": "K:\\!DriverVirtual\\OneDrive\\Documentos\\GitHub\\IniciativaCode\\Code Now!\\codenow-park\\codenow-park.dominio\\codenow-park.Dominio.csproj",
+      "projectName": "codenow-park.Dominio",
+      "projectPath": "K:\\!DriverVirtual\\OneDrive\\Documentos\\GitHub\\IniciativaCode\\Code Now!\\codenow-park\\codenow-park.dominio\\codenow-park.Dominio.csproj",
       "packagesPath": "C:\\Users\\maxim\\.nuget\\packages\\",
-      "outputPath": "K:\\!Projetos\\!ProjetosCodeNow\\EstacionamentoCodeNow\\codenow-park\\codenow-park.dominio\\obj\\",
+      "outputPath": "K:\\!DriverVirtual\\OneDrive\\Documentos\\GitHub\\IniciativaCode\\Code Now!\\codenow-park\\codenow-park.dominio\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",

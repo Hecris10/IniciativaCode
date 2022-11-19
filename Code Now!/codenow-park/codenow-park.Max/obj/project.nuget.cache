@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7ewfiOxtMxcQp1PFiTXBdaERYWi93J0uJOKPT/OwFqFvVTDnM1qgzp3cj1vEa8zQQYjnLENMw1EJza0M6ONrTw==",
+  "dgSpecHash": "+1vx2liUZM1JCoaJuYrTOTFkxwQQxr64bWRlMFOW0UMUunDH2WL2qr9VLdAcWEzQxNAAeUgh5/hFNBMyC9m4hg==",
   "success": true,
-  "projectFilePath": "K:\\!Projetos\\!ProjetosCodeNow\\EstacionamentoCodeNow\\codenow-park\\codenow-park.Max\\codenow-park.Max.csproj",
+  "projectFilePath": "K:\\!DriverVirtual\\OneDrive\\Documentos\\GitHub\\IniciativaCode\\Code Now!\\codenow-park\\codenow-park.Max\\codenow-park.Max.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\maxim\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\maxim\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

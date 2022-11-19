@@ -17,6 +17,7 @@ namespace codenow_park.Dominio.Models
 
         public Estacionamento() : base()
         {
+            this.VagasTotais = 0;
             this.Vagas = new List<Vaga>();
         }
 

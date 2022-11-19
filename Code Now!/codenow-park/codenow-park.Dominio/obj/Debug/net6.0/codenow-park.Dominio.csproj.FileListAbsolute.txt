@@ -10,3 +10,15 @@ K:\!Projetos\!ProjetosCodeNow\EstacionamentoCodeNow\codenow-park\codenow-park.do
 K:\!Projetos\!ProjetosCodeNow\EstacionamentoCodeNow\codenow-park\codenow-park.dominio\obj\Debug\net6.0\refint\codenow-park.Dominio.dll
 K:\!Projetos\!ProjetosCodeNow\EstacionamentoCodeNow\codenow-park\codenow-park.dominio\obj\Debug\net6.0\codenow-park.Dominio.pdb
 K:\!Projetos\!ProjetosCodeNow\EstacionamentoCodeNow\codenow-park\codenow-park.dominio\obj\Debug\net6.0\ref\codenow-park.Dominio.dll
+K:\!DriverVirtual\OneDrive\Documentos\GitHub\IniciativaCode\Code Now!\codenow-park\codenow-park.dominio\bin\Debug\net6.0\codenow-park.Dominio.deps.json
+K:\!DriverVirtual\OneDrive\Documentos\GitHub\IniciativaCode\Code Now!\codenow-park\codenow-park.dominio\bin\Debug\net6.0\codenow-park.Dominio.dll
+K:\!DriverVirtual\OneDrive\Documentos\GitHub\IniciativaCode\Code Now!\codenow-park\codenow-park.dominio\bin\Debug\net6.0\codenow-park.Dominio.pdb
+K:\!DriverVirtual\OneDrive\Documentos\GitHub\IniciativaCode\Code Now!\codenow-park\codenow-park.dominio\obj\Debug\net6.0\codenow-park.Dominio.csproj.AssemblyReference.cache
+K:\!DriverVirtual\OneDrive\Documentos\GitHub\IniciativaCode\Code Now!\codenow-park\codenow-park.dominio\obj\Debug\net6.0\codenow-park.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+K:\!DriverVirtual\OneDrive\Documentos\GitHub\IniciativaCode\Code Now!\codenow-park\codenow-park.dominio\obj\Debug\net6.0\codenow-park.Dominio.AssemblyInfoInputs.cache
+K:\!DriverVirtual\OneDrive\Documentos\GitHub\IniciativaCode\Code Now!\codenow-park\codenow-park.dominio\obj\Debug\net6.0\codenow-park.Dominio.AssemblyInfo.cs
+K:\!DriverVirtual\OneDrive\Documentos\GitHub\IniciativaCode\Code Now!\codenow-park\codenow-park.dominio\obj\Debug\net6.0\codenow-park.Dominio.csproj.CoreCompileInputs.cache
+K:\!DriverVirtual\OneDrive\Documentos\GitHub\IniciativaCode\Code Now!\codenow-park\codenow-park.dominio\obj\Debug\net6.0\codenow-park.Dominio.dll
+K:\!DriverVirtual\OneDrive\Documentos\GitHub\IniciativaCode\Code Now!\codenow-park\codenow-park.dominio\obj\Debug\net6.0\refint\codenow-park.Dominio.dll
+K:\!DriverVirtual\OneDrive\Documentos\GitHub\IniciativaCode\Code Now!\codenow-park\codenow-park.dominio\obj\Debug\net6.0\codenow-park.Dominio.pdb
+K:\!DriverVirtual\OneDrive\Documentos\GitHub\IniciativaCode\Code Now!\codenow-park\codenow-park.dominio\obj\Debug\net6.0\ref\codenow-park.Dominio.dll
