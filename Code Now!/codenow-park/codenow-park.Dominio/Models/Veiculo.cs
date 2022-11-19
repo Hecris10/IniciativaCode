@@ -10,7 +10,7 @@ namespace codenow_park.Dominio.Models
     {
         public string Placa { get; set; }
         public string Modelo { get; set; }
-        public List<Vaga> Vagas { get; set; }
+        public virtual IEnumerable<Vaga> Vagas { get; set; }
 
         public Veiculo() : base()
         {

@@ -38,16 +38,21 @@
                     <input class="form-check-input" asp-for="Ocupado" /> @Html.DisplayNameFor(model => model.Ocupado)
                 </label>
             </div>
-            @*<div class="form-group">
-                <label asp-for="DataCadastro" class="control-label"></label>
-                <input asp-for="DataCadastro" class="form-control" />
-                <span asp-validation-for="DataCadastro" class="text-danger"></span>
+            <div class="form-group">
+                <label asp-for="HorasEstacionado" class="control-label"></label>
+                <input asp-for="HorasEstacionado" class="form-control" />
+                <span asp-validation-for="HorasEstacionado" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="DataAlteracao" class="control-label"></label>
-                <input asp-for="DataAlteracao" class="form-control" />
-                <span asp-validation-for="DataAlteracao" class="text-danger"></span>
-            </div>*@
+                <label asp-for="ValorPagar" class="control-label"></label>
+                <input asp-for="ValorPagar" class="form-control" />
+                <span asp-validation-for="ValorPagar" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ValorPago" class="control-label"></label>
+                <input asp-for="ValorPago" class="form-control" />
+                <span asp-validation-for="ValorPago" class="text-danger"></span>
+            </div>
             <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />
             </div>
@@ -56,7 +61,7 @@
 </div>
 
 <div>
-    <a asp-action="Index">Back to List</a>
+    <a asp-action="Index" asp-controller="Vagas">Retornar</a>
 </div>
 
 @section Scripts {

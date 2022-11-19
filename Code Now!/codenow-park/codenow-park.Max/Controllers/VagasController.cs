@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Routing;
 using System.Data.Entity;
 using System.Data.Entity.Infrastructure;
 using System.Linq;
+using System.Runtime.InteropServices;
 
 namespace codenow_park.Max.Controllers
 {
@@ -166,12 +167,19 @@ namespace codenow_park.Max.Controllers
             {
                 return NotFound();
             }
-
-            var vaga = await _context.Vagas
-                .FirstOrDefaultAsync(m => m.Id == id);
+            
+            var est = _context.Estacionamentos.ToList();
+            var vei = _context.Veiculos.ToList();
+            var vaga = _context.Vagas.Include(o => o.Estacionamento)
+                .FirstOrDefault(m => m.Id == id);
             if (vaga == null)
             {
                 return NotFound();
+            }
+
+            if (vaga.Ocupado == true)
+            {
+                vaga.CalcularSaida();
             }
 
             return View(vaga);
@@ -182,18 +190,23 @@ namespace codenow_park.Max.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
+ 
             if (_context.Veiculos == null)
             {
                 return Problem("Entity set 'ParkContext.Vagas'  is null.");
             }
             var vaga = await _context.Vagas.FindAsync(id);
+            int? estacionamentoId = null;
             if (vaga != null)
             {
-                _context.Vagas.Remove(vaga);
+                estacionamentoId = vaga.EstacionamentoId;
+                vaga.Ocupado = false;
+                vaga.ValorPago = vaga.ValorPagar;
+                _context.Vagas.Update(vaga);
             }
 
             await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
+            return RedirectToAction("Index", "Vagas", new { id = estacionamentoId });
         }
 
         private bool VagaExists(int id)

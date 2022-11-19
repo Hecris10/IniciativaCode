@@ -25,10 +25,16 @@
                 @Html.DisplayNameFor(model => model.Saida)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.TempoEstacionado)
+                @Html.DisplayNameFor(model => model.HorasEstacionado)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Ocupado)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ValorPagar)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ValorPago)
             </th>
             <th></th>
         </tr>
@@ -49,15 +55,21 @@
                 @Html.DisplayFor(modelItem => item.Saida)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.TempoEstacionado)
+                    @Html.DisplayFor(modelItem => item.HorasEstacionado)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Ocupado)
             </td>
             <td>
+                @Html.DisplayFor(modelItem => item.ValorPagar)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ValorPago)
+            </td>
+            <td>
                 <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
                 <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                <a asp-action="Delete" asp-route-id="@item.Id">Retirar</a>
             </td>
         </tr>
 }

@@ -14,16 +14,20 @@ namespace codenow_park.Dominio.Models
 
 
         [ForeignKey(nameof(EstacionamentoId))]
-        public Estacionamento Estacionamento { get; set; }
+        public virtual Estacionamento Estacionamento { get; set; }
         [ForeignKey(nameof(VeiculoId))]
-        public Veiculo Veiculo { get; set; }
+        public virtual Veiculo Veiculo { get; set; }
 
 
         public DateTime Entrada { get; set; } = DateTime.Now;
         public Nullable<DateTime> Saida { get; set; }
 
-        public Nullable<DateTime> TempoEstacionado { get; set; }
+        //public Nullable<DateTime> TempoEstacionado { get; set; }
         public bool Ocupado { get; set; } = true;
+        public double HorasEstacionado { get; set; }
+        public double ValorPagar { get; set; }
+        public double ValorPago { get; set; }
+
 
         public Vaga() : base()
         {
@@ -31,5 +35,18 @@ namespace codenow_park.Dominio.Models
             Ocupado = true;
         }
 
+        public void CalcularSaida()
+        {
+            this.Saida = DateTime.Now;
+
+            var diferenca = this.Saida.Value.Subtract(this.Entrada);
+            double horas = diferenca.Hours;
+            double minutos = diferenca.Minutes;
+            this.HorasEstacionado = horas + minutos / 100;
+
+            this.ValorPagar = this.Estacionamento.PrecoInicial;
+            if (horas > 1)
+                this.ValorPagar += this.Estacionamento.PrecoHora * (horas - 1);
+        }
     }
 }

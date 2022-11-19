@@ -9,10 +9,10 @@ namespace codenow_park.Dominio.Models
     public class Estacionamento : BaseModel
     {
         public string Nome { get; set; }
-        public decimal PrecoInicial { get; set; }
-        public decimal PrecoHora { get; set; }
+        public double PrecoInicial { get; set; }
+        public double PrecoHora { get; set; }
         public int VagasTotais { get; set; }
-        public List<Vaga> Vagas { get; set; }
+        public virtual IEnumerable<Vaga> Vagas { get; set; }
 
 
         public Estacionamento() : base()
@@ -21,7 +21,7 @@ namespace codenow_park.Dominio.Models
             this.Vagas = new List<Vaga>();
         }
 
-        public Estacionamento(string nome, decimal precoInicial, decimal precoHora, int vagasTotais) : this()
+        public Estacionamento(string nome, double precoInicial, double precoHora, int vagasTotais) : this()
         {
             Nome = nome;
             PrecoInicial = precoInicial;

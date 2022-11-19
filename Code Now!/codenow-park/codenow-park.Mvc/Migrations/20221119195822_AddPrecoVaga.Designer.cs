@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using codenow_park.Infra.Context;
 
@@ -11,9 +12,11 @@ using codenow_park.Infra.Context;
 namespace codenowpark.Mvc.Migrations
 {
     [DbContext(typeof(ParkContext))]
-    partial class ParkContextModelSnapshot : ModelSnapshot
+    [Migration("20221119195822_AddPrecoVaga")]
+    partial class AddPrecoVaga
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
