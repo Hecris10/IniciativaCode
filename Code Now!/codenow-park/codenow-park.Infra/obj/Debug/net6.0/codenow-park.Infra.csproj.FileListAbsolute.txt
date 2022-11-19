@@ -1,0 +1,17 @@
+K:\!Projetos\!ProjetosCodeNow\EstacionamentoCodeNow\codenow-park\codenow-park.Infra\bin\Debug\net6.0\codenow-park.Infra.deps.json
+K:\!Projetos\!ProjetosCodeNow\EstacionamentoCodeNow\codenow-park\codenow-park.Infra\bin\Debug\net6.0\codenow-park.Infra.dll
+K:\!Projetos\!ProjetosCodeNow\EstacionamentoCodeNow\codenow-park\codenow-park.Infra\bin\Debug\net6.0\codenow-park.Infra.pdb
+K:\!Projetos\!ProjetosCodeNow\EstacionamentoCodeNow\codenow-park\codenow-park.Infra\obj\Debug\net6.0\codenow-park.Infra.csproj.AssemblyReference.cache
+K:\!Projetos\!ProjetosCodeNow\EstacionamentoCodeNow\codenow-park\codenow-park.Infra\obj\Debug\net6.0\codenow-park.Infra.GeneratedMSBuildEditorConfig.editorconfig
+K:\!Projetos\!ProjetosCodeNow\EstacionamentoCodeNow\codenow-park\codenow-park.Infra\obj\Debug\net6.0\codenow-park.Infra.AssemblyInfoInputs.cache
+K:\!Projetos\!ProjetosCodeNow\EstacionamentoCodeNow\codenow-park\codenow-park.Infra\obj\Debug\net6.0\codenow-park.Infra.AssemblyInfo.cs
+K:\!Projetos\!ProjetosCodeNow\EstacionamentoCodeNow\codenow-park\codenow-park.Infra\obj\Debug\net6.0\codenow-park.Infra.csproj.CoreCompileInputs.cache
+K:\!Projetos\!ProjetosCodeNow\EstacionamentoCodeNow\codenow-park\codenow-park.Infra\obj\Debug\net6.0\codenow-park.Infra.dll
+K:\!Projetos\!ProjetosCodeNow\EstacionamentoCodeNow\codenow-park\codenow-park.Infra\obj\Debug\net6.0\refint\codenow-park.Infra.dll
+K:\!Projetos\!ProjetosCodeNow\EstacionamentoCodeNow\codenow-park\codenow-park.Infra\obj\Debug\net6.0\codenow-park.Infra.pdb
+K:\!Projetos\!ProjetosCodeNow\EstacionamentoCodeNow\codenow-park\codenow-park.Infra\obj\Debug\net6.0\ref\codenow-park.Infra.dll
+K:\!Projetos\!ProjetosCodeNow\EstacionamentoCodeNow\codenow-park\codenow-park.Infra\bin\Debug\net6.0\codenow-park.dominio.dll
+K:\!Projetos\!ProjetosCodeNow\EstacionamentoCodeNow\codenow-park\codenow-park.Infra\bin\Debug\net6.0\codenow-park.dominio.pdb
+K:\!Projetos\!ProjetosCodeNow\EstacionamentoCodeNow\codenow-park\codenow-park.Infra\obj\Debug\net6.0\codenow-park.Infra.csproj.CopyComplete
+K:\!Projetos\!ProjetosCodeNow\EstacionamentoCodeNow\codenow-park\codenow-park.Infra\bin\Debug\net6.0\codenow-park.Infra.runtimeconfig.json
+K:\!Projetos\!ProjetosCodeNow\EstacionamentoCodeNow\codenow-park\codenow-park.Infra\obj\Debug\net6.0\codenow-park.Infra.genruntimeconfig.cache

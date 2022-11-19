@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "codenow-park.Dominio/1.0.0": {
+        "runtime": {
+          "codenow-park.Dominio.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "codenow-park.Dominio/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

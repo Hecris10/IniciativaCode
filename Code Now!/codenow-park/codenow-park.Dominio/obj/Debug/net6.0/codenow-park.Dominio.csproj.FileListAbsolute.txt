@@ -1,0 +1,12 @@
+K:\!Projetos\!ProjetosCodeNow\EstacionamentoCodeNow\codenow-park\codenow-park.dominio\bin\Debug\net6.0\codenow-park.Dominio.deps.json
+K:\!Projetos\!ProjetosCodeNow\EstacionamentoCodeNow\codenow-park\codenow-park.dominio\bin\Debug\net6.0\codenow-park.Dominio.dll
+K:\!Projetos\!ProjetosCodeNow\EstacionamentoCodeNow\codenow-park\codenow-park.dominio\bin\Debug\net6.0\codenow-park.Dominio.pdb
+K:\!Projetos\!ProjetosCodeNow\EstacionamentoCodeNow\codenow-park\codenow-park.dominio\obj\Debug\net6.0\codenow-park.Dominio.csproj.AssemblyReference.cache
+K:\!Projetos\!ProjetosCodeNow\EstacionamentoCodeNow\codenow-park\codenow-park.dominio\obj\Debug\net6.0\codenow-park.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+K:\!Projetos\!ProjetosCodeNow\EstacionamentoCodeNow\codenow-park\codenow-park.dominio\obj\Debug\net6.0\codenow-park.Dominio.AssemblyInfoInputs.cache
+K:\!Projetos\!ProjetosCodeNow\EstacionamentoCodeNow\codenow-park\codenow-park.dominio\obj\Debug\net6.0\codenow-park.Dominio.AssemblyInfo.cs
+K:\!Projetos\!ProjetosCodeNow\EstacionamentoCodeNow\codenow-park\codenow-park.dominio\obj\Debug\net6.0\codenow-park.Dominio.csproj.CoreCompileInputs.cache
+K:\!Projetos\!ProjetosCodeNow\EstacionamentoCodeNow\codenow-park\codenow-park.dominio\obj\Debug\net6.0\codenow-park.Dominio.dll
+K:\!Projetos\!ProjetosCodeNow\EstacionamentoCodeNow\codenow-park\codenow-park.dominio\obj\Debug\net6.0\refint\codenow-park.Dominio.dll
+K:\!Projetos\!ProjetosCodeNow\EstacionamentoCodeNow\codenow-park\codenow-park.dominio\obj\Debug\net6.0\codenow-park.Dominio.pdb
+K:\!Projetos\!ProjetosCodeNow\EstacionamentoCodeNow\codenow-park\codenow-park.dominio\obj\Debug\net6.0\ref\codenow-park.Dominio.dll
