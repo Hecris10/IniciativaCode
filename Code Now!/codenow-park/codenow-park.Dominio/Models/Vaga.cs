@@ -35,9 +35,9 @@ namespace codenow_park.Dominio.Models
             Ocupado = true;
         }
 
-        public void CalcularSaida()
+        public void CalcularSaida(DateTime saida)
         {
-            this.Saida = DateTime.Now;
+            this.Saida = saida;
 
             var diferenca = this.Saida.Value.Subtract(this.Entrada);
             double horas = diferenca.Hours;
