@@ -1,5 +1,7 @@
 ﻿# Tutorial DotNet Core Migrations
 
+# Abrir o Terminal
+	No Visual Studio -> Exibir/Terminal
 ## Instalar o EF-Tools
 	Instalar uma única vez após a instalação do Visual Studio ou VSCode
 	dotnet tool install --global dotnet-ef

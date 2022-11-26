@@ -110,5 +110,6 @@ namespace codenow_park.Infra.Repositories
 
             return _estacionamento.VagasTotais - ocupadas;
         }
+
     }
 }
