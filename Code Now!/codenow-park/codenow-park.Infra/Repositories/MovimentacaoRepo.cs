@@ -90,9 +90,25 @@ namespace codenow_park.Infra.Repositories
             return ERetirarStatus.Sucesso;
         }
 
-        public IEnumerable<Vaga> ObterVagas()
+        public IEnumerable<Vaga> ObterTodos()
         {
             return _contexto.Vagas;
+        }
+
+        public int ObterVagasOcupadas()
+        {
+            int? ocupadas = _estacionamento
+                .Vagas
+                .Count(o => o.Ocupado);
+
+            return ocupadas ?? 0;
+        }
+
+        public int ObterVagasDisponiveis()
+        {
+            int ocupadas = ObterVagasOcupadas();
+
+            return _estacionamento.VagasTotais - ocupadas;
         }
     }
 }

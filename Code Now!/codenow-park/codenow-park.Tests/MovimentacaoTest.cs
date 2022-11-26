@@ -150,6 +150,43 @@ namespace codenow_park.Tests
             Assert.AreEqual(EEstacionarStatus.Falha_EstacionamentoLotado, status);
         }
 
+        
+        [TestMethod]
+        public void TestEstacionar6Veiculos_VagasOcupadas()
+        {
+            ParkContext context = InicializarDados("ObterVagas01");
+            VeiculoRepo repoVeic = new VeiculoRepo(context);
+            EstacionamentoRepo repoEst = new EstacionamentoRepo(context);
+            Estacionamento estacionamento = repoEst.ObterPorCnpj("01001001000101");
+
+            MovimentacaoRepo operacao = new MovimentacaoRepo(context, estacionamento);
+
+            EEstacionarStatus status = EEstacionarStatus.Sucesso;
+            var veiculos = repoVeic.ObterTodos().Take(3).ToList();
+            foreach (var veiculo in veiculos)
+                status = operacao.Estacionar(veiculo);
+
+            Assert.AreEqual(3, operacao.ObterVagasOcupadas());
+        }
+        
+        [TestMethod]
+        public void TestEstacionar6Veiculos_VagasDisponiveis()
+        {
+            ParkContext context = InicializarDados("ObterVagas02");
+            VeiculoRepo repoVeic = new VeiculoRepo(context);
+            EstacionamentoRepo repoEst = new EstacionamentoRepo(context);
+            Estacionamento estacionamento = repoEst.ObterPorCnpj("01001001000101");
+
+            MovimentacaoRepo operacao = new MovimentacaoRepo(context, estacionamento);
+
+            EEstacionarStatus status = EEstacionarStatus.Sucesso;
+            var veiculos = repoVeic.ObterTodos().Take(3).ToList();
+            foreach (var veiculo in veiculos)
+                status = operacao.Estacionar(veiculo);
+
+            Assert.AreEqual(2, operacao.ObterVagasDisponiveis());
+        }
+
 
 
 

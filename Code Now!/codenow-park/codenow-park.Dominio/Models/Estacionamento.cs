@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -8,6 +9,7 @@ namespace codenow_park.Dominio.Models
 {
     public class Estacionamento : BaseModel
     {
+        [Required]
         public string Nome { get; set; }
         public string Cnpj { get; set; }
         public double PrecoInicial { get; set; }

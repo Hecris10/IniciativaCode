@@ -28,7 +28,6 @@ namespace codenow_park.Dominio.Models
         public double ValorPagar { get; set; }
         public double ValorPago { get; set; }
 
-
         public Vaga() : base()
         {
             Entrada = DateTime.Now;
