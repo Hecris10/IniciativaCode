@@ -179,7 +179,7 @@ namespace codenow_park.Max.Controllers
 
             if (vaga.Ocupado == true)
             {
-                vaga.CalcularSaida();
+                vaga.CalcularSaida(DateTime.Now);
             }
 
             return View(vaga);

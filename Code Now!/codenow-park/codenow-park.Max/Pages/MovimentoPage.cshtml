@@ -1,0 +1,15 @@
+﻿@page "~/movimento"
+@model codenow_park.Max.Pages.MovimentoPageModel
+@{
+}
+<h1>Página Inicial</h1>
+
+@foreach (var item in @Model.Veiculos)
+{
+    <p>@item.Placa</p>
+    <p>@item.Modelo</p>
+    <button type="submit" class="btn btn-primary" onclick="@Model.BotaoClicado2()">Visualizar</button>
+}
+
+
+@*<div asp-validation-summary="All" class="text-danger"></div>*@

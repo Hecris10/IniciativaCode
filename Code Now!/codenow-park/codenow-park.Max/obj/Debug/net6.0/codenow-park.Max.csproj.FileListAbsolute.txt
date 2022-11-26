@@ -886,3 +886,4 @@ C:\Users\DEV5557\Documents\GitHub\IniciativaCode\Code Now!\codenow-park\codenow-
 C:\Users\DEV5557\Documents\GitHub\IniciativaCode\Code Now!\codenow-park\codenow-park.Max\obj\Debug\net6.0\codenow-park.Max.pdb
 C:\Users\DEV5557\Documents\GitHub\IniciativaCode\Code Now!\codenow-park\codenow-park.Max\obj\Debug\net6.0\codenow-park.Max.genruntimeconfig.cache
 C:\Users\DEV5557\Documents\GitHub\IniciativaCode\Code Now!\codenow-park\codenow-park.Max\obj\Debug\net6.0\ref\codenow-park.Max.dll
+K:\!DriverVirtual\OneDrive\Documentos\GitHub\IniciativaCode\Code Now!\codenow-park\codenow-park.Max\obj\Debug\net6.0\codenow-park.Max.MvcApplicationPartsAssemblyInfo.cs

@@ -89,5 +89,10 @@ namespace codenow_park.Infra.Repositories
 
             return ERetirarStatus.Sucesso;
         }
+
+        public IEnumerable<Vaga> ObterVagas()
+        {
+            return _contexto.Vagas;
+        }
     }
 }

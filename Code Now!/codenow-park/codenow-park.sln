@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32922.545
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "codenow-park.Mvc", "codenow-park.Mvc\codenow-park.Mvc.csproj", "{E0498E1E-1E46-44C1-A44E-85D7DED09A73}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "codenow-park.Mvc", "codenow-park.Mvc\codenow-park.Mvc.csproj", "{E0498E1E-1E46-44C1-A44E-85D7DED09A73}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "codenow-park.Dominio", "codenow-park.dominio\codenow-park.Dominio.csproj", "{BE9672FB-7CC0-45C6-BB4F-C45D1BA47FB0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "codenow-park.Dominio", "codenow-park.dominio\codenow-park.Dominio.csproj", "{BE9672FB-7CC0-45C6-BB4F-C45D1BA47FB0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "codenow-park.Infra", "codenow-park.Infra\codenow-park.Infra.csproj", "{51CA322A-75E5-4BD3-944E-EB42C4392AE6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "codenow-park.Infra", "codenow-park.Infra\codenow-park.Infra.csproj", "{51CA322A-75E5-4BD3-944E-EB42C4392AE6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "codenow-park.Tests", "codenow-park.Tests\codenow-park.Tests.csproj", "{FD0A67DB-461E-4358-B453-1E4E0C26C4E6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "codenow-park.Tests", "codenow-park.Tests\codenow-park.Tests.csproj", "{FD0A67DB-461E-4358-B453-1E4E0C26C4E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "codenow-park.Max", "codenow-park.Max\codenow-park.Max.csproj", "{57C519B5-48E1-4CD1-AA6D-ED87114536BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "codenow-park.Max", "codenow-park.Max\codenow-park.Max.csproj", "{57C519B5-48E1-4CD1-AA6D-ED87114536BE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

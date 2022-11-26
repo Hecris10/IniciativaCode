@@ -284,3 +284,4 @@ C:\Users\DEV5557\Documents\GitHub\IniciativaCode\Code Now!\codenow-park\codenow-
 C:\Users\DEV5557\Documents\GitHub\IniciativaCode\Code Now!\codenow-park\codenow-park.Mvc\obj\Debug\net6.0\codenow-park.Mvc.genruntimeconfig.cache
 C:\Users\DEV5557\Documents\GitHub\IniciativaCode\Code Now!\codenow-park\codenow-park.Mvc\obj\Debug\net6.0\ref\codenow-park.Mvc.dll
 C:\Users\DEV5557\Documents\GitHub\IniciativaCode\Code Now!\codenow-park\codenow-park.Mvc\obj\Debug\net6.0\codenow-park.Mvc.MvcApplicationPartsAssemblyInfo.cs
+K:\!DriverVirtual\OneDrive\Documentos\GitHub\IniciativaCode\Code Now!\codenow-park\codenow-park.Mvc\obj\Debug\net6.0\codenow-park.Mvc.MvcApplicationPartsAssemblyInfo.cs
